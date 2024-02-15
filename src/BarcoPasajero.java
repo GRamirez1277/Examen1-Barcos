@@ -36,11 +36,8 @@ public class BarcoPasajero {
 
     @Override
     public String toString() {
-        return "BarcoPasajero{" +
-                "precioBoleto=" + precioBoleto +
-                ", contadorPasajeros=" + contadorPasajeros +
-                ", Cantidad de Pasajeros que compraron boleto: " + contadorPasajeros +
-                '}';
+        return " BarcoPasajero "+"Precio Boleto: "+precioBoleto+"Pasajeros: "+contadorPasajeros
+                +" Cantidad de Pasajeros que compraron boleto: "+contadorPasajeros;
     }
 
     public void listarPasajeros() {
